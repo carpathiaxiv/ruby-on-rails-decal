@@ -5,10 +5,12 @@ end
 
 def sort_array_plus_one(a)
   # Q2 CODE HERE
+  return a.sort.collect{|i| i+1}
 end
 
 def combine_name(first_name, last_name)
   # Q3 CODE HERE
+  return "#{first_name} #{last_name}"
 end
 
 def blockin_time(a)
